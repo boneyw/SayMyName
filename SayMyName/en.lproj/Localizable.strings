@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  SayMyName
+
+  Created by william boney on 4/25/19.
+  Copyright © 2019 william boney. All rights reserved.
+*/
+
+"SELECTED" = "You have chosen %@ %@";
+

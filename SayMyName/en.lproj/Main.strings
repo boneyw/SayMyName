@@ -1,6 +1,6 @@
 
 /* Class = "UILabel"; text = "Surname"; ObjectID = "X6d-W7-Gsh"; */
-"X6d-W7-Gsh.text" = "Apellidos";
+"X6d-W7-Gsh.text" = "Surname";
 
 /* Class = "UILabel"; text = "Forename"; ObjectID = "cH3-iI-AkG"; */
-"cH3-iI-AkG.text" = "Nombre";
+"cH3-iI-AkG.text" = "Forename";

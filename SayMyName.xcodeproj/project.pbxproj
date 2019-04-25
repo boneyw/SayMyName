@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		867058D2227270A2005C435C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 867058D4227270A2005C435C /* Localizable.strings */; };
 		869B4174226D47BD00BC0BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869B4173226D47BD00BC0BFE /* AppDelegate.swift */; };
 		869B4176226D47BD00BC0BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869B4175226D47BD00BC0BFE /* ViewController.swift */; };
 		869B4179226D47BD00BC0BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869B4177226D47BD00BC0BFE /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		867058D3227270A2005C435C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8685E8D42272798200745C1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		869B4170226D47BD00BC0BFE /* SayMyName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayMyName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		869B4173226D47BD00BC0BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		869B4175226D47BD00BC0BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +69,7 @@
 				869B4177226D47BD00BC0BFE /* Main.storyboard */,
 				869B4185226D496200BC0BFE /* logo.png */,
 				869B417A226D47C300BC0BFE /* Assets.xcassets */,
+				867058D4227270A2005C435C /* Localizable.strings */,
 				869B417C226D47C300BC0BFE /* LaunchScreen.storyboard */,
 				869B417F226D47C300BC0BFE /* Info.plist */,
 			);
@@ -131,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867058D2227270A2005C435C /* Localizable.strings in Resources */,
 				869B4186226D496200BC0BFE /* logo.png in Resources */,
 				869B417E226D47C300BC0BFE /* LaunchScreen.storyboard in Resources */,
 				869B417B226D47C300BC0BFE /* Assets.xcassets in Resources */,
@@ -154,11 +159,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		867058D4227270A2005C435C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				867058D3227270A2005C435C /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		869B4177226D47BD00BC0BFE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				869B4178226D47BD00BC0BFE /* Base */,
 				869B418B226E921900BC0BFE /* es */,
+				8685E8D42272798200745C1C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
